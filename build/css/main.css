@@ -7986,9 +7986,9 @@ h5 {
 }
 @media (min-width: 992px) {
   .headers.bg-devices {
-    background-image: url("../img/ipad-iphone.svg");
+    background-image: url("../img/ipad-iphone22.svg");
     background-repeat: no-repeat;
-    background-position: right 190px;
+    background-position: right 180px;
     background-size: 50% auto;
   }
 }
