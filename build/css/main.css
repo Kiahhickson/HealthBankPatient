@@ -39,6 +39,17 @@
   src: url(/fonts/EuclidFlex-Ultralightitalic.woff);
 }
 
+
+/* Mailchimp form css */
+
+#mc_embed_signup {
+  background:#fff;
+  font-family: Euclid-Regular;
+  clear:left;
+  font-size: 20px;
+  width:100%;
+}
+
 body > .main > section {
   border-bottom: 1px solid #3fa2f7;
 }
@@ -175,6 +186,7 @@ a.rounded-arrow {
   border-radius: 4px;
   background: #e4f1fd;
 }
+
 .ratio-1-1,
 .ratio-2-1,
 .ratio-4-3,
