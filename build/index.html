@@ -10,6 +10,8 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/flickity.js"></script>
+    <script src="js/include-html.js"></script>
+    <script type="text/javascript" src="jquery-1.6.3.js"></script>
     <link rel="stylesheet" href="css/main.css"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
@@ -17,11 +19,11 @@
     <!-- Navigation & hero container Section-->
     <section class="headers bg-devices" id="headers-14">
       <!-- Removed bg-light class from section class so it defaults to a white bg. -->
-      <div class="top-nav ph-15 ph-sm-30 ph-lg-70 p-40">
+      <div class="top-nav ph-15 ph-sm-30 ph-lg-70 p-40" id="top-nav">
         <div class="row justify-content-between align-items-center">
-          <div class="col-auto"><a href=""><img src="img/logos/HealthBankSm.png"/></a></div>
+          <div class="col-auto"><a href="/"><img src="img/logos/HealthBankSm.png"/></a></div>
           <div class="col-auto">
-            <nav class="navbar d-none d-lg-block"><a href="">About</a><a href="">How it works</a><a href="">Health Bank</a><a class="btn btn-small">Join us</a>
+            <nav class="navbar d-none d-lg-block"><a href="about.html">About</a><a href="">How it works</a><a href="contact.html">Contact</a><a class="btn btn-small" href="#">Join us</a>
             </nav>
             <nav class="navbar d-lg-none"><a href=""><img src="img/icons/burger.svg"/></a>
             </nav>
@@ -33,7 +35,8 @@
           <div class="col-12 col-sm-8 col-lg-6">
             <h1 class="mb-20">Managing your health just got easier</h1>
             <h4 class="mb-30">
-              Track and monitor your health goals. Connect with quality healthcare professionals, your way.
+              Track and monitor your health goals. <br>
+              Connect with quality healthcare professionals, your way.
             </h4>
               <button class="btn btn-small"><span>Join us</span>
               </button>
@@ -234,7 +237,7 @@
               <div class="col-12 col-sm-auto mb-30 mb-sm-0"><a href=""><img src="img/logos/HealthBankSm.png"/></a>
               </div>
               <div class="col-12 col-sm-auto mb-20 mb-lg-0">
-                <nav class="navbar"><a href="">About</a><a href="">Contact</a><a href="">Terms</a><a href="#">Privacy</a></nav>
+                <nav class="navbar"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a></nav>
               </div>
             </div>
           </div>

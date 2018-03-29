@@ -43,9 +43,6 @@ body > .main > section {
   border-bottom: 1px solid #28c6c7;
 }
 
-/* body {
-  margin-top: 100px !important;
-} */
 a {
   color: #35404E;
   /*  Changed link colour to grey*/
@@ -513,7 +510,7 @@ body {
   color: #35404E;
   -webkit-font-smoothing: antialiased;
   font-family: 'Open Sans', sans-serif;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 h1 h2 h3 h4 h5 h6 {
   margin-top: 0;
